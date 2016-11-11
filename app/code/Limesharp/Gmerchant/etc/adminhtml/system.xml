@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Config/etc/system_file.xsd">
+    <system>
+        <tab id="limesharp_gmerchant" sortOrder="2000">
+            <label>Gmerchant</label>
+        </tab>
+        <section id="limesharp_gmerchant" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Gmerchant</label>
+            <tab>limesharp_gmerchant</tab>
+            <resource>Limesharp_Gmerchant::settings</resource>            
+            <group id="gmerchant_general" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>General Settings</label>
+                <field id="category" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Gmerchant Category</label>
+                </field>
+                <field id="brand" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Gmerchant Brand</label>
+                </field>
+                <field id="shipping" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Manage Shipping</label>
+                </field>
+
+            </group>
+        </section>
+    </system>
+</config>
